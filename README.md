@@ -1,6 +1,6 @@
-# Cedden Lab
+# RNA Ecology and Biotechnology
 
-Academic website of Doga Cedden, covering research, publications, preprints, invited talks, awards, news and CV.
+Academic website of Doga Cedden, covering research, people, publications, preprints, invited talks, awards, news and CV.
 
 ## Publishing
 

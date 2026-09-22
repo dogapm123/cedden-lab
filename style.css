@@ -9,3 +9,22 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 .home-study .research-figure{margin-top:28px}.home-study .figure-link{padding:25px 28px}.home-study .figure-link img{max-height:440px}.home-study .research-figure figcaption{padding:18px 24px}.research-figure img{background:white}.study-card .figure-credit a{overflow-wrap:anywhere}.page-heading h1,.topic-card h3,.talk h2{overflow-wrap:break-word}
 @media(max-width:600px){.home-study .figure-link{padding:13px}.home-study .research-figure figcaption{padding:17px}.home-study .figure-label{font-size:.95rem}.home-study .research-figure figcaption p{font-size:.85rem}}
+
+/* Lab identity and people */
+.lab-name{font-size:.9rem;line-height:1.55;letter-spacing:.06em}
+.identity .name{font-size:1.95rem;line-height:1.15;margin:15px 0 12px}
+.home-intro{display:grid;grid-template-columns:minmax(0,1fr) 140px;gap:35px;align-items:start}
+.home-intro-copy{min-width:0}
+.home-intro h1{font-size:clamp(2.5rem,4.2vw,3.8rem);letter-spacing:-.04em}
+.home-portrait{display:block;margin-top:6px;border-radius:12px;overflow:hidden;border:1px solid var(--line)}
+.home-portrait img{display:block;width:100%;height:auto}
+.person-card{display:grid;grid-template-columns:170px minmax(0,1fr);gap:34px;align-items:start;padding:30px;border:1px solid var(--line);background:var(--soft)}
+.person-portrait{display:block;width:100%;height:auto;border-radius:10px}
+.person-details h2{font-size:1.8rem}
+.person-role{margin-top:12px;font-weight:500;font-size:.98rem}
+.person-affiliation{margin-top:6px;color:var(--muted);font-size:.95rem}
+.person-bio{margin-top:20px;max-width:700px;color:var(--muted);line-height:1.85}
+.person-card .utility-links{margin-bottom:0}
+@media(max-width:1100px){.home-intro{grid-template-columns:minmax(0,1fr) 120px;gap:25px}.home-intro h1{font-size:clamp(2.4rem,4.2vw,3.3rem)}}
+@media(max-width:900px){.mobile-bar strong{font-size:1rem}.mobile-bar a>span{font-size:.7rem;letter-spacing:.015em;line-height:1.4;max-width:250px}.home-intro h1{font-size:clamp(2.5rem,6vw,3.6rem)}.dialog-header strong{font-size:.82rem;line-height:1.5}.dialog-header button{flex-shrink:0}}
+@media(max-width:600px){.home-intro{grid-template-columns:minmax(0,1fr) 82px;gap:15px}.home-intro h1{font-size:clamp(1.9rem,6.5vw,2.6rem)}.home-intro h1>span{display:inline;font-size:.45em;margin:0}.home-intro .eyebrow{font-size:.7rem;letter-spacing:.075em;line-height:1.65}.home-intro .home-description,.home-intro .home-actions,.home-intro .affiliations{margin-right:-97px}.home-portrait{margin-top:3px}.home-discipline{font-size:.9rem}.person-card{grid-template-columns:1fr;gap:22px;padding:23px}.person-portrait{width:120px}.person-details h2{font-size:1.55rem}.page-top>span{min-width:0}.page-top>span>a{max-width:240px}}
